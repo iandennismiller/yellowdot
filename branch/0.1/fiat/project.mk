@@ -32,6 +32,6 @@ test: install
 
 .PHONY: uninstall
 uninstall:
-	@echo __________ uninstall
-	
+	@echo __________ uninstall	
+
 # $Id:project.mk 114 2008-03-11 19:24:49Z idm $
