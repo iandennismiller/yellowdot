@@ -71,5 +71,5 @@ else
 	$(COPY_CMD) $(MAKE_PATH)/install/* $(INSTALL_PATH)/
 endif
 	
-# $Id: Makefile 186 2008-08-20 01:13:09Z idm $
+# $Id$
 	

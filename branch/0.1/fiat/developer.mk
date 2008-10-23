@@ -118,4 +118,4 @@ deploy_sanitize:
 	@echo __________ deploy_sanitize
 	-ssh $(SSH_FLAGS) $(SSH_HOST) "rm $(REMOTE_PATH)/$(DIST_NAME).tgz; rm $(REMOTE_PATH)/$(DIST_NAME)-src.tgz; rm -rf $(REMOTE_PATH)/$(DIST_NAME)"
 
-# $Id: developer.mk 25 2008-03-11 18:40:35Z idm $	
+# $Id$	

@@ -1,15 +1,15 @@
 # (c) 2008 Saperea - www.saperea.com
 # project.mk: project-wide configuration  
 
-export PROJECT_NAME=SOMETHING
-export PROJECT_VERSION=0.9
+export PROJECT_NAME=yellowdot
+export PROJECT_VERSION=0.1
 export MAKE_TOOL=make
 
 .PHONY: build_project
 build_project: pre_build
 	@echo __________ 1.2 build_project
 
-	cp -Rp $(MAKE_PATH)/src/ $(BUILD_PATH)/install
+	cp -Rp $(MAKE_PATH)/bin $(BUILD_PATH)/install
 	chmod -R u+w $(BUILD_PATH)/install
 	-cp -Rp $(MAKE_PATH)/fiat/$(FIAT_CONFIG)/settings/ $(BUILD_PATH)/install
 	cd $(BUILD_PATH); for dir in `find . -name '.svn'` ; do rm -rf $$dir; done
