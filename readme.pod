@@ -72,15 +72,17 @@ the original printer source can be reconstructed.
 
 =head1 DOWNLOAD
 
-L<http://iandennismiller.com/software/yellowdot/yellowdot>
+L<https://github.com/iandennismiller/yellowdot>
+
+git clone git@github.com:iandennismiller/yellowdot.git
 
 =head1 INSTALLATION
 
-chmod 755 yellowdot
-
-sudo mv yellowdot /usr/local/bin
-
 sudo cpan -i GD
+
+chmod 755 bin/yellowdot.pl
+
+sudo mv bin/yellowdot.pl /usr/local/bin
 
 =head1 SEE ALSO
 
@@ -97,8 +99,6 @@ L<http://www.washingtonpost.com/wp-dyn/content/article/2005/10/18/AR200510180166
 =head1 AUTHOR
 
 Ian Dennis Miller <iandennismiller@gmail.com>
-
-L<http://iandennismiller.com/software/yellowdot>
 
 =head1 COPYRIGHT
 
